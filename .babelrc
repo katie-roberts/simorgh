@@ -1,16 +1,16 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
-        "useBuiltIns": true,
+        "useBuiltIns": "entry",
         "targets": {
           "browsers": [
-            "chrome >= 53",
-            "firefox >= 45.0",
-            "ie >= 11",
-            "edge >= 37",
-            "safari >= 9",
+            "chrome >= 25",
+            "firefox >= 48",
+            "ie >= 9",
+            "edge >= 14",
+            "safari >= 7",
             "opera >= 40",
             "op_mini >= 18",
             "Android >= 7",
@@ -21,7 +21,7 @@
         }
       }
     ],
-    "razzle/babel"
+    "@babel/preset-react"
   ],
   "plugins": [
     [
